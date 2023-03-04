@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "875173986232",
+    "project_id": "mini-facebook-a0344",
+    "storage_bucket": "mini-facebook-a0344.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875173986232:android:086b88beb92180fe10194d",
+        "android_client_info": {
+          "package_name": "com.example.mini_facebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875173986232-hbvtaqmktmc49jv0663m0145b58br1qk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mini_facebook",
+            "certificate_hash": "08bd8618e1a06cb4cf32fd78ea3ff5b8132ccf67"
+          }
+        },
+        {
+          "client_id": "875173986232-eq44kibtuklp70p60t6biu8oa7ginm0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu5aFPdd187iFmy6lUTkcbe9fMFj6gl6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875173986232-eq44kibtuklp70p60t6biu8oa7ginm0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
