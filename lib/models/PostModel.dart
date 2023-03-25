@@ -11,6 +11,8 @@ class Post {
   final List postLikes;
   final List postComments;
   final bool isLiked;
+  final bool? isShared;
+  final String? SharedBy;
 
   const Post({
     required this.id,
@@ -21,5 +23,7 @@ class Post {
     required this.postComments,
     required this.postLikes,
     required this.isLiked,
+    this.isShared,
+    this.SharedBy,
   });
 }

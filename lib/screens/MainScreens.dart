@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:mini_facebook/provider/dataProvider.dart';
+import 'package:mini_facebook/screens/FriendScreen.dart';
+import 'package:mini_facebook/screens/GroupScreen.dart';
 import 'package:provider/provider.dart';
 
 import '../widgets/CustomTabBar.dart';
@@ -15,9 +17,8 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _screens = [
     HomeScreen(),
     Scaffold(),
-    Scaffold(),
-    Scaffold(),
-    Scaffold(),
+    FriendScreen(),
+    GroupScreen(),
     Scaffold(),
   ];
   final List<IconData> _icons = const [
